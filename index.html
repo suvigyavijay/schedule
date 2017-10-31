@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Oasis 2017 | Schedule</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="row">
+            <div class="left"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+            <div class="schedule">Schedule</div>
+            <div class="right"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+        </div>
+        <div class="datecard row">
+            <div class="datehead">October 31</div>
+            <div class="dateblank"> </div>
+        </div>
+        <div class="event-list">
+        <h3>Loading...</h3>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCdu9UHzIZ-e8uJQ88UmY_WfT8HWKpA66s",
+        authDomain: "oasis2017-2a5cf.firebaseapp.com",
+        databaseURL: "https://oasis2017-2a5cf.firebaseio.com",
+        projectId: "oasis2017-2a5cf",
+        storageBucket: "oasis2017-2a5cf.appspot.com",
+        messagingSenderId: "287303053171"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>

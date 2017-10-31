@@ -1,0 +1,144 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Azo Sans Regular";
+    src: url(https://bits-oasis.org/fonts/Azo%20Sans/Regular.otf);
+}
+
+@font-face {
+    font-family: "Azo Sans Bold";
+    src: url(https://bits-oasis.org/fonts/Azo%20Sans/Bold.otf);
+}
+
+body {
+    background-color: #262626;
+    font-family: "Azo Sans Bold";
+    font-size: 16px;
+    color: #FFF;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    padding-bottom: 4vh;
+}
+
+.main-container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: center;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2vh!important;
+    width: 90vw;
+    margin: 0vh auto;
+}
+
+.left{
+    font-size: 4em;
+}
+
+.right{
+    font-size: 4em;
+}
+
+.schedule {
+    text-align: center;
+    font-size: 3rem;
+    /* margin-top: 4vh; */
+    text-transform: uppercase;
+    width: fit-content;
+    background: #ffe14a;
+    border: 10px solid #ffe14a;
+    color: #111;
+}
+
+.datecard {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 4vh;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+.datehead {
+    font-size: 2.5em;
+    background: #FC0C84;
+    /*padding: 6px 10px 0 10px;*/
+    /* color: #fff; */
+    /* transition: 0.4s all ease-in; */
+    min-height: max-content;
+    text-align: center;
+    border: 10px solid #FC0C84;
+    border-radius: 10px 10px 0 0;
+}
+
+.dateblank {
+    min-height: 2em;
+    background: #FFF;
+    width: 100%;
+    border: 10px solid #FFF;
+    border-radius: 0 0 10px 10px;
+}
+
+.eventcard {
+    width: 90vw;
+    margin: 0 auto;
+    margin: 1vh auto;
+    text-transform: uppercase;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    background: #FFF;
+    color: #222;
+    border: 10px solid #FFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+.event-list h3 {
+	margin: 2vh 0;
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	margin: 4vh;
+}
+
+.eventname {
+    font-size: 1.5em;
+}
+
+.eventvenue {
+    font-size: 0.9em;
+}
+
+.eventvenue p {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+.eventtime {
+    font-size: 2em;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 2vw;
+}
