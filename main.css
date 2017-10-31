@@ -53,16 +53,16 @@ body {
 }
 
 .left{
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 .right{
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 .schedule {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.7rem;
     /* margin-top: 4vh; */
     text-transform: uppercase;
     width: fit-content;
